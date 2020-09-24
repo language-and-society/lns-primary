@@ -1,0 +1,676 @@
+{
+    "FALAK": {
+        "gender": "X",
+        "utterances": [
+            "Kya kar rahe ho?",
+            "Can you do it later",
+            "can we get married?",
+            "Andrea tum bata nahi sakti thi",
+            "I  don't  have  a  problem  par",
+            "ghar  pe  aake  pee  sakti  thi",
+            "Kya hua?",
+            "Guys aisey baat avoid karney",
+            "Vo bhool jaayengey?",
+            "Chaar  din  ho  gaye  toh  kya",
+            "Uncle chai badi wahiyat si hai",
+            "na?",
+            "Voh pata nahi lekin jo hua hai",
+            "Minal ka kya samajh mein aata",
+            "hai Javed? I don't believe",
+            "Opinion ke liye nahi aayi thi",
+            "Uncle hum baat badana nahi",
+            "Sir  I  understand  but  kuchh",
+            "Kisney kaha tha tumhey police",
+            "ke  paas  jaane  ke  liye?  Tere",
+            "akele  ka  decision  nahi  hai",
+            "Samajh na yaar Minal, hum aam",
+            "working  girls  se  kuchh  alag",
+            "Look Rajvir us din jo hua heat of the",
+            "Aur Minal ko tumhari ek nahi",
+            "dono aankhein phhodni chahiye",
+            "thi  and  you  think  you  can",
+            "Kya  hua?  Andrea?  Kahan  hai",
+            "iska hot water?",
+            "Kahin bhi? Yehi chahtey hain",
+            "Warrant? Warrant kyun FIR toh",
+            "Aapne toh kaha tha chaar baje",
+            "tak aa jayengi SHO?",
+            "Are  lekin  voh  lock  up  mein",
+            "Paper? Kya paper?",
+            "Haan  lekin  appko  kya  karna",
+            "hai?",
+            "Bail  toh  waisi  bhi  nahi  mil",
+            "Lekin  subah  toh  unhone  kaha",
+            "Kuchh legal terms use kar rahe",
+            "We  are  normal  working  girls",
+            "Thank you",
+            "Ek personal loan hai aur ek home",
+            "Hum bahar paise maangne ki baat",
+            "Dost hain mere?",
+            "Har baat ko tod marod ke pesh kyun",
+            "Aapne Minal ke saath jo kiya vohi",
+            "Yeh repeated humiliation kisliye?",
+            "Yehi prove karney ke liye na ki",
+            "humney inse paise maange hain?"
+        ]
+    },
+    "ANDREA": {
+        "gender": "X",
+        "utterances": [
+            "him?",
+            "Arrey I wasn't drinkng, that",
+            "Guys  mein  coffee  bana  rahi",
+            "Kya?",
+            "Ghar pe pata chala toh hamarey",
+            "parents bhi stressed out",
+            "Coffee?",
+            "Jaayengein kahan lekin?",
+            "Minal walks to the window to breathe in some fresh",
+            "air",
+            "I will speak to somebody in",
+            "Kyun?  What  exactly  do  you",
+            "mean?",
+            "But there is one lawyer who is",
+            "What do we do?",
+            "Sir? Why are you not asking",
+            "Deepak raises his hand to silence her and lets the waiter go",
+            "Sir, I work at an event management",
+            "Why are you doing this? Why are you"
+        ]
+    },
+    "KASTURI": {
+        "gender": "X",
+        "utterances": [
+            "Nahi samajh mein aa raha hai",
+            "Beta  jab  hum  1947  mein  aaye"
+        ]
+    },
+    "VOICE": {
+        "gender": "X",
+        "utterances": [
+            "Arey main samajh gaya, lekin",
+            "main keh raha hoon na vo vaisi"
+        ]
+    },
+    "JAVED": {
+        "gender": "X",
+        "utterances": [
+            "Now I can be truthful Falak or",
+            "liberal, what do you want me",
+            "to     be?"
+        ]
+    },
+    "SCENE REVISED": {
+        "gender": "X",
+        "utterances": []
+    },
+    "UMA": {
+        "gender": "X",
+        "utterances": []
+    },
+    "SUMAN": {
+        "gender": "X",
+        "utterances": [
+            "Sir aap unn ladkon ko warn toh",
+            "kar saktey hain?"
+        ]
+    },
+    "SANJEEV": {
+        "gender": "X",
+        "utterances": []
+    },
+    "MINAL": {
+        "gender": "X",
+        "utterances": [
+            "Dekh yaar jo hogaya vo hogaya,",
+            "they must have forgotten, hum",
+            "Look roz subah subah tense",
+            "Kyun uncle?",
+            "Who is this?",
+            "What do you mean?",
+            "Lekin Uncle kal poori managing",
+            "committe uthke bolegi tab aap",
+            "kya kareingey?",
+            "Par humein roz phone aa rahe",
+            "Sir  lekin  abhi  jo  voh  log",
+            "Pehle   laga   sab   theek   ho",
+            "jaayega but it is increasingly",
+            "Tumhare aur Andrea ke saath jo",
+            "hua uske baad kaise chup baith",
+            "sakti hain?",
+            "Normal?",
+            "You     really     want     to",
+            "Report aa gayi Papa ki?",
+            "I'm not feeling well, Andrea",
+            "thoda  paani  garam  kar  na",
+            "Humney bilkul normal kapde pehney",
+            "Hum shaam ko ek music event mein",
+            "He grabbed me from the back aur",
+            "Nahi show mein friendship ho gayi",
+            "Uss waqt mujhe pata bhi nahi tha ki",
+            "yeh kitne rich aur kitne well",
+            "Unhoney offer kiya toh humne ek ek",
+            "Kisi ko private mein joke sunana",
+            "Maine koi paise nahi liye na",
+            "His parents apologised isliye wapis",
+            "liya tha because we felt sad for",
+            "Sir voh ladka roz office se Andrea",
+            "No your honour I will answer in",
+            "Yeh kaisa sawaal hai, why would he",
+            "pay for it?",
+            "Nahi hum ek doosre ko pasand kartey",
+            "What? Kya matlab hai iss ka?"
+        ]
+    },
+    "MARCH": {
+        "gender": "X",
+        "utterances": [
+            "Falak is walking fast in the lane while smsing to"
+        ]
+    },
+    "DEEPAK": {
+        "gender": "X",
+        "utterances": [
+            "Yeh wala kaunsa?",
+            "He is disappointed that the Vendor can't identify",
+            "Itni der tak kyun nahi aaya?",
+            "Nahin    suniye    suniye\u2026deer",
+            "Uh\u2026Gaadi  ka  description  toh",
+            "diya tha maine aapko",
+            "Nahi  us  area  se  aisi  koi",
+            "Tumhari  bahut  hi  efficient",
+            "police kuchh karti hai ya nahi",
+            "Tees    second    ke    andar",
+            "responsible citizen se seedha",
+            "Are you ok?",
+            "She doenst respond",
+            "Kya hua Sinha sahab?",
+            "Kyun?",
+            "Paper kahan hai?",
+            "I  just  want  to  \u2026charge  kya",
+            "hai\u2026main\u2026just   show   me   the",
+            "Who?",
+            "Bail  mil  jaane  se  matter",
+            "khatam nahin ho jata, trial ke",
+            "liye  theek  se  prepare  karna",
+            "Pandrah taareekh ki date mili",
+            "Sir?",
+            "Yes Sir",
+            "No cross",
+            "Phir main ab immediately Doctor",
+            "Uday ko bulana chahunga jinki",
+            "What?",
+            "Doctor",
+            "Sara    ghar    jaana    chahti",
+            "I would like to call the doctor",
+            "again",
+            "Lekin uss raat aap duty pe hi nahin",
+            "Nahi aise kaise clear ho gaya Sarla",
+            "Premchand ji? Minal ka poora naam",
+            "So Andrea what was the reason ki",
+            "aap uss kamrey mein gayin?",
+            "Check kiya tha aapne?",
+            "Aap Akele kyun nahi gayin?",
+            "Why did you shut the door and not",
+            "him?",
+            "That\u2019s all your honor",
+            "We all know Rajvir Singh ke aapki",
+            "intial schooling ek top",
+            "No that is all I wanted to ask your",
+            "Waiter ya manager ne jo dekha suna",
+            "Uske baad?",
+            "Need I say more your honour?",
+            "Your honour these are selective",
+            "visuals which tell a selective",
+            "Gupta ji raat ko jo ladke kabhie",
+            "kabhie inke ghar aatey hain kya voh",
+            "sirf dost ho saktey hain?",
+            "Nahi mein magar ki gunjaish hi nahi",
+            "Miss Arora are you a virgin?",
+            "Are you a virgin Miss Arora?",
+            "At what age did you lose your",
+            "virginity?",
+            "Victim ka character baar baar",
+            "question na ho isliye main sab ek",
+            "Did he pay for it?",
+            "Iske baad, jaise ki aapko jaanne",
+            "wale uss ladke Vishwa ne police ko",
+            "Toh hue and you've just admitted to",
+            "Matlab yeh ki 1st february ki raat",
+            "ko Rajvir aur uske saathiyun ne bhi",
+            "yehi socha hoga na ki yeh ek fairly",
+            "Kya kaha ya kiya?",
+            "Kya? Kya kaha aapne?",
+            "Aajkal mere jaise hi sach boltey",
+            "Aapke hisaab se jab bhi koi ladki",
+            "hans hans ke, touch kartey hue kisi",
+            "ladke se baat karey toh voh hint de",
+            "rahi hai ki aaiyye mere saath so",
+            "Kispe?",
+            "Matlab rock show mein mile toh hint",
+            "Vaise aapko bahut bahut badhayi ho",
+            "Lena dena toh vaise meri client ki",
+            "Nahi usey prove karne ki zaroorat",
+            "Aap itna kyun react kar rahein",
+            "Aapko aksar gussa aata hai jab koi",
+            "vaisi baat karta hai jo aap sunna",
+            "pasand nahi kartey?",
+            "Aapne randomly jis ladki ko aap",
+            "jaantey bhi nahi, dinner pe kyun",
+            "bulaya?",
+            "Sharaab bhi insaaniyat dikhane ke",
+            "Aapki itne reputable logon ke yahan",
+            "Aapke ghar mein bhi koi ladki",
+            "sharab peeti hai?",
+            "Parties mein jaatin hain?",
+            "Isliye party mein aane wali har",
+            "Hota nahi hai na hona chahiye lekin",
+            "tum jaise log apna haque samajh ke",
+            "Nahi agar ladki ko yeh pata chal",
+            "jaaye ki aisa karney pe aap uska",
+            "balatkaar karney ki koshish",
+            "You honour please take a look at Exhibit PW 1/1 in this",
+            "Compromise ki baat karney ke liye tees kilometer",
+            "ghoomney ki kya zarurat thi?",
+            "You honour yeh CCTV grab hai jab yeh gaadi ek bridge ke",
+            "Father kya kartey hain tumharey?",
+            "Retire kab ho rahein hain?",
+            "Family mein tumharey alava koi responsibility uthaney",
+            "Does you mother work?",
+            "Perjury ki sazza kya hai aapko pata hai?",
+            "Falak ne tumhey compromise ke liye call kiya tha?",
+            "Jis restaurant mein tum ussey mile wahan hamarey paas",
+            "I can prove this and I can prove that you are guilty of"
+        ]
+    },
+    "SINHA": {
+        "gender": "X",
+        "utterances": []
+    },
+    "GUEST#2": {
+        "gender": "X",
+        "utterances": []
+    },
+    "RANJIT": {
+        "gender": "X",
+        "utterances": [
+            "Kahan hua tha yeh?",
+            "Kaun kaun tha?",
+            "Ladkiyan kahan ki hain?",
+            "Kya naya drama tha yeh Prashant Ji?"
+        ]
+    },
+    "ANKIT": {
+        "gender": "X",
+        "utterances": [
+            "Haan       bhai       Mehrauli",
+            "Uncle   Ji   scooter   pahunch",
+            "Unn  teenon  ko  ghar  se  bahar",
+            "Kya bola doctor?",
+            "Jo kar rahein hain ussey dar",
+            "lag raha hai tujhe?",
+            "Useey kya farq padta hai?",
+            "The  issue  is  you  hurt  my",
+            "Now he is angry and I am angry",
+            "Eye   ki   jagah   kuchh   aur",
+            "Who  wants  you  to  forget?  I",
+            "want you to remember this for",
+            "Who wants to go first?",
+            "Nakhrey  hain  yaar  tum  logon",
+            "Kisiko kuchh bolna mat nahi",
+            "toh net pe daal dengey tera",
+            "Haan Sir thhey lekin bas compromise ki baat kar rahey"
+        ]
+    },
+    "RICK GUY": {
+        "gender": "X",
+        "utterances": []
+    },
+    "RAJVEER": {
+        "gender": "X",
+        "utterances": [
+            "Dekhety hain dekhtey hain bol",
+            "Sorry se kya hota hai?",
+            "Bahut zyada frank ho rahin thin",
+            "Nahi maine iss case mein kaha",
+            "Ab aap bekaar ki baatein kar rahein",
+            "Inn sab personal baaton ka case se",
+            "kya lena dena hai?",
+            "Toh uski tarah mera bhi character",
+            "nahi hai yeh prove karna chahtey",
+            "hain aap?",
+            "Kya?",
+            "Nahi gussa nahi ho raha hoon main",
+            "lekin inn sab personal baaton ka",
+            "matlab?",
+            "Dumpy apna room khol de na Andrea"
+        ]
+    },
+    "VISHWA": {
+        "gender": "X",
+        "utterances": [
+            "Please  chaabi  lagana  bandh",
+            "Rajvir   ki   condition   thodi",
+            "Falak  tum  nahi  jaanti  kitne",
+            "Main apna number bhejhta hoon",
+            "Dude what is your problem? Tu"
+        ]
+    },
+    "SARA": {
+        "gender": "X",
+        "utterances": [
+            "hoga?",
+            "Haan",
+            "I  wish  tumhara  bhi  koi  apna",
+            "Kya hua?",
+            "Kaunsa trial?"
+        ]
+    },
+    "SHAUKEEN": {
+        "gender": "X",
+        "utterances": [
+            "Thook  gali  ya  dhamki  ka  kya"
+        ]
+    },
+    "RITWIK": {
+        "gender": "X",
+        "utterances": []
+    },
+    "BOSS": {
+        "gender": "X",
+        "utterances": [
+            "better agar tum leave pe chali",
+            "jao  kuchh  din  and  look  for"
+        ]
+    },
+    "VIRENDRA": {
+        "gender": "X",
+        "utterances": []
+    },
+    "LADY CONSTABLE": {
+        "gender": "X",
+        "utterances": [
+            "Haan humne woh forward kardiya",
+            "hai\u2026lekin wahan par aisi koi",
+            "gaadi   nahin   mili   hai\u2026pata",
+            "nahin kya dekhliya aapney",
+            "Deepak  suddenly  bangs  down  the  landline  mid"
+        ]
+    },
+    "AMOD": {
+        "gender": "X",
+        "utterances": [
+            "Haan        main        samajh",
+            "Kisi missing neighbour ko leke",
+            "South Ex wala?",
+            "Sir,  mein  DCP  AMod  bol  raha",
+            "Sir,   vo   Ranjit   Singh   ke",
+            "bhatijey ke khilaaf Suraj Kund",
+            "aur  Hauz  khaane  thaane  mein",
+            "alag  alag  report  darj  hui",
+            "Sir  molestation  ka  case  hai"
+        ]
+    },
+    "ANANDI": {
+        "gender": "X",
+        "utterances": [
+            "call rahey thhey?",
+            "Toh abhie bhi theek nahi hain",
+            "voh?"
+        ]
+    },
+    "AMOD'S SENIOR": {
+        "gender": "X",
+        "utterances": []
+    },
+    "RAJVIR": {
+        "gender": "X",
+        "utterances": [
+            "Nahi Chachaji Ankit aapke",
+            "Sir inhoney humey ek rock show mein",
+            "Nahi pehle rock show mein utna",
+            "Yehi ki paise ke badle mein hum",
+            "Pehle mujhe shaque tab hua jab yeh",
+            "ladkiyan sabko alag alag le jaane",
+            "Sir thoda bahut doubt hua lekin",
+            "phir isne mere liye ek drink",
+            "Unhoney kaha humey bhookh lagi hai"
+        ]
+    },
+    "SINHA#1": {
+        "gender": "X",
+        "utterances": []
+    },
+    "COP#1": {
+        "gender": "X",
+        "utterances": [
+            "Ji, hamesha aate hain?"
+        ]
+    },
+    "COP#2": {
+        "gender": "X",
+        "utterances": []
+    },
+    "PANWALLAH": {
+        "gender": "X",
+        "utterances": []
+    },
+    "MC MEMBER#1": {
+        "gender": "X",
+        "utterances": [
+            "ka?"
+        ]
+    },
+    "MC MEMBER#2": {
+        "gender": "X",
+        "utterances": []
+    },
+    "CONSTABLE#3": {
+        "gender": "X",
+        "utterances": [
+            "Zyada English mat bolo"
+        ]
+    },
+    "OMKAR": {
+        "gender": "X",
+        "utterances": [
+            "Raat ko aake hum Minal ko ghar le"
+        ]
+    },
+    "RECEPTIONIST": {
+        "gender": "X",
+        "utterances": [
+            "Sir conference le chuki hain"
+        ]
+    },
+    "LAWYER#3": {
+        "gender": "X",
+        "utterances": [
+            "rahin hain Bhai yeh ladkiyan? Yeh"
+        ]
+    },
+    "LAWYER#4": {
+        "gender": "X",
+        "utterances": []
+    },
+    "JUDGE": {
+        "gender": "X",
+        "utterances": [
+            "How Is this relevant Deepak Ji?",
+            "Minal Arora says, 'Rajvir Singh",
+            "tried to outrage my modesty and I",
+            "The court would still like to see",
+            "Cross?",
+            "You can only speak when you are",
+            "Is this relevant at all?",
+            "Where are we going with this?",
+            "One of the girls has admitted to",
+            "Nahi I am not interested in",
+            "technicalities aur main aisa advice",
+            "Closing Arguments for all the cases",
+            "Deepak Ji any closing arguement?"
+        ]
+    },
+    "PRASHANT MEHTA": {
+        "gender": "X",
+        "utterances": [
+            "Officer Sarla Premchand ko bulana",
+            "Phir aapne immediately Minal Arora",
+            "ko arrest kyun nahi kiya?",
+            "Bina iske confession ke aapko kaise",
+            "pata ki isine Rajvir ko buri tarah",
+            "se maara?",
+            "Jis botal se humla kiya gaya voh",
+            "bhi aapne baramad ki?",
+            "Main aage apni baat prove karne ke",
+            "liye RS resort ke waiter Mukesh",
+            "Yeh vohi ladki hai jisne Rajvir pe",
+            "Kya hua uss raat court ko",
+            "batayengey zara?",
+            "Kya pehna hua tha inhoney?",
+            "Ismein kya objection hai aapko?",
+            "Yehi ki sabne inke kapde notice",
+            "kiye thhey kyunki generally Resort",
+            "Lekin khali kapdon se toh aap aisi",
+            "baatein guess nahi kar saktey na?",
+            "Pehle kaun gaya?",
+            "Phir kya hua?",
+            "Ab main Manager Ramakant Vijay ko",
+            "I understand aap hichak rahein hain",
+            "lekin court ke paas itna waqt nahi",
+            "Investigating officer ko intimidate",
+            "Aap North East se hain?",
+            "Aap kab se is peshe mein hain?",
+            "Aisa nahi hai toh Dumpy ke saath",
+            "akele doosre kamrey mein phir kyun",
+            "gayin thin aap?",
+            "Kafi der ruki bhi thein aap uss",
+            "doosre kamrey mein?",
+            "Jis room mein aap washroom use",
+            "karney gayi, uska darwaza kisne",
+            "bandh kiya?",
+            "Lobby mein jo CCTV camera laga hai",
+            "uske hisaab se kafi der tak andar",
+            "thhey aap?",
+            "Kya kar rahey thhey itni der?",
+            "Apne ghar mein kamane wali sirf aap",
+            "hain?",
+            "Aapke bhai ke ilaaj vagairah mein",
+            "Salary kitni hai aapki?",
+            "In hand?",
+            "Paise ki bahut zarurat rehti hogi",
+            "Aapko tab shaque nahi hua inpe ki",
+            "bina jaan pehchan ke ke itna khulke",
+            "kaise baat kar rahin hain aapke",
+            "saath?",
+            "Kya hints?",
+            "Lekin phir bhi clearly kuchh nahi",
+            "kaha?",
+            "Kya baat?",
+            "Yeh kaise hua?",
+            "Lekin paise dene ke liye aap nahi",
+            "maaney?",
+            "Phir?",
+            "Sir mere liye yeh accept karna",
+            "mushkil hai ki koi ladki ek ladke",
+            "Aapko yeh bhi laga ki yeh ladke",
+            "Haan vohi toh keh raha tha ki aap",
+            "Rajvir aur baqi ladkon ka",
+            "Toh chaliye maan letey hain aap",
+            "bina kisi aise vaise maqsad ke",
+            "Your honour the point to be noted",
+            "here is KI INHONEY KHUD RAJVIR KE",
+            "Rajveer ko maarney se pehle kitni",
+            "pi rakhi thi aap logon ne?",
+            "Are you sure? Ek hi drink pi thi",
+            "aapne?",
+            "Bahar aapne Rajvir ke saath ek",
+            "obscene conversation chhedi thi",
+            "Joke? Kya joke tha?",
+            "Kyun? Bana nahi pa rahin hain joke?",
+            "That is exactly my point your",
+            "It is a pattern with her your",
+            "Kya matter tha yeh aapke hisaab se?",
+            "Nahi takleef toh aapko yeh thi ki",
+            "Tumhey pata hai tumney kya kiya",
+            "Aapke yeh dost aapse thode bade bhi",
+            "Unka inse koi personal relation",
+            "nahi hai main yeh prove karoonga",
+            "Yeh aapke account mein unke account",
+            "se over the years itne saare bank",
+            "Vohi batane wala tha ki suddenly ab",
+            "inhoney unko thode thode paise",
+            "Inko paise ki zarurat hamesha rehti",
+            "Kamaal hai ek ek karke yeh ladkiyan",
+            "Yeh inke medical bills submit kiye",
+            "Possible hi nahi hai bina kisi side",
+            "It was a surprise, uss ladki ne",
+            "Confession wapis liya ja sakta",
+            "Iske liye Falak Ali ki recording jo humney submit ki",
+            "Your honour iske baarey mein humey pehle inform nahi",
+            "Maine court ke saamne prove kiya",
+            "hai your honour ki yeh teenon",
+            "ladkiyan wahan prostitution ke",
+            "intent     se gayin aur incident ke"
+        ]
+    },
+    "SARLA PREMCHAND": {
+        "gender": "X",
+        "utterances": [
+            "pehle mil gayi thi lekin ek mahila",
+            "Complaint ke baad investigation",
+            "mein RS resort ke manager aur ek",
+            "waiter ne iske khilaaf gawahi di",
+            "Civil dress mein log rakhey thhey",
+            "Sir badi ghatna thi toh main ekdum",
+            "goli ki speed se Gypsy chala ke"
+        ]
+    },
+    "MUKESH": {
+        "gender": "X",
+        "utterances": [
+            "Nahi jis tarah ke kapde pehne",
+            "thhey, mujhe turant Manager sahab",
+            "se kehna pada ki yeh ladkiyan theek",
+            "Nahi yeh kamrey mein kyun jaatin"
+        ]
+    },
+    "MUKESH WAITER": {
+        "gender": "X",
+        "utterances": []
+    },
+    "LADY OFFICER": {
+        "gender": "X",
+        "utterances": []
+    },
+    "PRASHANT ADVANI": {
+        "gender": "X",
+        "utterances": [
+            "Seedhey type ke decent ladke?",
+            "Late bhi aatin hain regularly?",
+            "Inhoney agar paise nahi maane hotey",
+            "Vakalat mera profession hai aur",
+            "apne clients ko achhi tarah defend",
+            "Yeh kya line of questioning hai?",
+            "Unneccessarily kyun mere client ko"
+        ]
+    },
+    "DUMPY": {
+        "gender": "X",
+        "utterances": [
+            "Minal kar legi Rajvir se toh"
+        ]
+    },
+    "GUPTA": {
+        "gender": "X",
+        "utterances": [
+            "kabhie kabhie?",
+            "Ho saktey hain lekin nahi bhi to ho",
+            "saktey hain Sehgal sahab?"
+        ]
+    },
+    "GUPTA JI": {
+        "gender": "X",
+        "utterances": []
+    }
+}
