@@ -9,6 +9,14 @@ with open('queen_character_data.json') as f:
 comment_words = ''
 stopwords = set(STOPWORDS)
 
+stopwords.add('Rani');
+stopwords.add('Vijay');
+stopwords.add('nahi');
+stopwords.add('nahin');
+stopwords.add('hai');
+stopwords.add('bhi');
+stopwords.add('hai');
+
 for key in data.keys():
     for val in data[key]['utterances']:
 
