@@ -156,6 +156,8 @@ def language_split(
         gender = get_gender()
 
     event_split = input("Enter the event to split by (exact) (if not, hit enter): ")
+    if event_split == '':
+        event_split=None
     
     en_pre_words, en_post_words, gender, s = get_words(
                                                 character_data, gender, character, language='en', 
