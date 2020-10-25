@@ -244,6 +244,54 @@ def sentence_language_split(character_data=None, gender='all', movie_name=''):
     plt.show()
     return
 
+def compare_hedges(character_data=None, gender='all', movie_name=''):
+    character = input("Character name (all/etc): ").strip()
+    if character == 'all':
+        gender = get_gender()
+
+    # USING SENTENCES
+    # NOTE: these are list, str, char resp
+    en_sentences, gender, s = get_sentences(character_data, gender, character, language='en')
+    else_sentences, gender, s = get_sentences(character_data, gender, character, language='else')
+
+    # USING WORDS
+    # NOTE: these are dict, str, char resp
+    words, gender, s = get_words(character_data, character=character, gender=gender)
+
+    #######################################################################
+    ############################# INSRERT LOGIC ###########################
+    #######################################################################
+    return
+
+def compare_apology(character_data=None, gender='all', movie_name=''):
+    character = input("Character name (all/etc): ").strip()
+    if character == 'all':
+        gender = get_gender()
+    en_sentences, gender, s = get_sentences(character_data, gender, character, language='en')
+    else_sentences, gender, s = get_sentences(character_data, gender, character, language='else')
+
+
+    words, gender, s = get_words(character_data, character=character, gender=gender)
+
+    #######################################################################
+    ############################# INSRERT LOGIC ###########################
+    #######################################################################
+    return
+
+def compare_slang(character_data=None, gender='all', movie_name=''):
+    character = input("Character name (all/etc): ").strip()
+    if character == 'all':
+        gender = get_gender()
+    en_sentences, gender, s = get_sentences(character_data, gender, character, language='en')
+    else_sentences, gender, s = get_sentences(character_data, gender, character, language='else')
+
+    words, gender, s = get_words(character_data, character=character, gender=gender)
+
+    #######################################################################
+    ############################# INSRERT LOGIC ###########################
+    #######################################################################
+    return
+
 if __name__ == "__main__":
     movie_name = input("Enter movie name: ").strip()
     
