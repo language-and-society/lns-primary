@@ -82,6 +82,34 @@ def get_words(character_data=None, gender='all', character='all', language='all'
     else:
         return words_pre_event, words_post_event, gender, s
 
+def get_sentences(character_data=None, gender='all', character='all', language='all'):
+    sentences = []
+    for key in character_data.keys():
+        if character == 'all' or character.lower() == key.lower():
+            if character_data[key]['gender'] == gender or gender == 'all':
+                for sentence in character_data[key]['utterances']:
+                    flag = True 
+                    for word in sentence.split():
+                        if not (
+                                language == 'all' 
+                                or (language == 'en' and english_dict.check(word))
+                                or language == 'else'and (not english_dict.check(word))
+                            ):
+                            flag = False
+                            break
+                    
+                    if flag:
+                        sentences.append(sentence)
+    if gender == 'M':
+        gender = "male"
+    if gender == 'F':
+        gender = "female"
+    if gender == 'all':
+        s = 's'
+    else:
+        s = ''
+    return sentences, gender, s
+
 def frequency_split(character_data=None, gender='all', movie_name=''):
     
     character = input("Character name (all/etc): ").strip()
@@ -158,6 +186,16 @@ def language_split(
     event_split = input("Enter the event to split by (exact) (if not, hit enter): ")
     if event_split == '':
         event_split=None
+        en_words, gender, s = get_words(character_data, gender, character, language='en', event_split=event_split)
+        else_words, gender, s = get_words(character_data, gender, character, language='else', event_split=event_split)
+        
+        count_en_words = sum(en_words.values())
+        count_else_words = sum(else_words.values())
+        
+        plt.bar(np.arange(2), [count_en_words, count_else_words])
+        plt.title(f"Showing English vs Hindi split for charater{s}: {character} and gender{s}: {gender}")
+        plt.show()
+        return
     
     en_pre_words, en_post_words, gender, s = get_words(
                                                 character_data, gender, character, language='en', 
@@ -187,6 +225,25 @@ def language_split(
         plt.title(f"Showing English vs Hindi split before and after the event for charater{s}: {character} and gender{s}: {gender}")
     plt.show()
 
+def sentence_language_split(character_data=None, gender='all', movie_name=''):
+    character = input("Character name (all/etc): ").strip()
+    if character == 'all':
+        gender = get_gender()
+    # len_all_sentences = len(get_sentences(character_data, gender, character, language='all'))
+    en_sentences, gender, s = get_sentences(character_data, gender, character, language='en')
+    else_sentences, gender, s = get_sentences(character_data, gender, character, language='else')
+
+    # print(en_sentences)
+
+    plt.bar(np.arange(2), [len(en_sentences), len(else_sentences)])
+
+    if character == 'all':
+        plt.title(f"Showing all English vs Hindi sentence split for all charaters and gender{s}: {gender}")
+    else:
+        plt.title(f"Showing all English vs Hindi sentence split for charater: {character}")
+    plt.show()
+    return
+
 if __name__ == "__main__":
     movie_name = input("Enter movie name: ").strip()
     
@@ -198,10 +255,10 @@ if __name__ == "__main__":
         print("\n\nCHOICES: ")
         print("0. Exit")
         print("1. Change movie")
-        print("2. pass")
-        print("3. Frequency Counts")
-        print("4. Pronoun Split")
-        print("5. Language Split")
+        print("2. Frequency Counts")
+        print("3. Pronoun Split")
+        print("4. Language Split")
+        print("5. Sentence Language Split")
         print("\n")
         try:
             choice = int(input("Enter choice: ").strip())
@@ -216,10 +273,10 @@ if __name__ == "__main__":
             movie_name = input("Enter movie name: ").strip()
             character_data = load_file(movie_name)
         elif choice == 2:
-            pass
-        elif choice == 3:
             frequency_split(character_data, gender, movie_name)
-        elif choice == 4:
+        elif choice == 3:
             pronoun_split(character_data, gender, movie_name)
-        elif choice == 5:
+        elif choice == 4:
             language_split(character_data, gender, movie_name)
+        elif choice == 5:
+            sentence_language_split(character_data, gender, movie_name)
