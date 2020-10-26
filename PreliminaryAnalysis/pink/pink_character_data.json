@@ -1,6 +1,6 @@
 {
     "FALAK": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Kya kar rahe ho?",
             "Can you do it later",
@@ -55,7 +55,7 @@
         ]
     },
     "ANDREA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "him?",
             "Arrey I wasn't drinkng, that",
@@ -79,21 +79,21 @@
         ]
     },
     "KASTURI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Nahi samajh mein aa raha hai",
             "Beta  jab  hum  1947  mein  aaye"
         ]
     },
     "VOICE": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Arey main samajh gaya, lekin",
             "main keh raha hoon na vo vaisi"
         ]
     },
     "JAVED": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Now I can be truthful Falak or",
             "liberal, what do you want me",
@@ -105,22 +105,22 @@
         "utterances": []
     },
     "UMA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": []
     },
     "SUMAN": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Sir aap unn ladkon ko warn toh",
             "kar saktey hain?"
         ]
     },
     "SANJEEV": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "MINAL": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Dekh yaar jo hogaya vo hogaya,",
             "they must have forgotten, hum",
@@ -163,13 +163,13 @@
         ]
     },
     "MARCH": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Falak is walking fast in the lane while smsing to"
         ]
     },
     "DEEPAK": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Yeh wala kaunsa?",
             "He is disappointed that the Vendor can't identify",
@@ -284,15 +284,15 @@
         ]
     },
     "SINHA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "GUEST#2": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "RANJIT": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Kahan hua tha yeh?",
             "Kaun kaun tha?",
@@ -301,7 +301,7 @@
         ]
     },
     "ANKIT": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Haan       bhai       Mehrauli",
             "Uncle   Ji   scooter   pahunch",
@@ -323,11 +323,11 @@
         ]
     },
     "RICK GUY": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "RAJVEER": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Dekhety hain dekhtey hain bol",
             "Sorry se kya hota hai?",
@@ -347,7 +347,7 @@
         ]
     },
     "VISHWA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Please  chaabi  lagana  bandh",
             "Rajvir   ki   condition   thodi",
@@ -357,7 +357,7 @@
         ]
     },
     "SARA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "hoga?",
             "Haan",
@@ -367,28 +367,28 @@
         ]
     },
     "SHAUKEEN": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Thook  gali  ya  dhamki  ka  kya"
         ]
     },
     "RITWIK": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "BOSS": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "better agar tum leave pe chali",
             "jao  kuchh  din  and  look  for"
         ]
     },
     "VIRENDRA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "LADY CONSTABLE": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Haan humne woh forward kardiya",
             "hai\u2026lekin wahan par aisi koi",
@@ -398,7 +398,7 @@
         ]
     },
     "AMOD": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Haan        main        samajh",
             "Kisi missing neighbour ko leke",
@@ -412,7 +412,7 @@
         ]
     },
     "ANANDI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "call rahey thhey?",
             "Toh abhie bhi theek nahi hain",
@@ -420,11 +420,11 @@
         ]
     },
     "AMOD'S SENIOR": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "RAJVIR": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Nahi Chachaji Ankit aapke",
             "Sir inhoney humey ek rock show mein",
@@ -438,63 +438,63 @@
         ]
     },
     "SINHA#1": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "COP#1": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Ji, hamesha aate hain?"
         ]
     },
     "COP#2": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "PANWALLAH": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "MC MEMBER#1": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "ka?"
         ]
     },
     "MC MEMBER#2": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "CONSTABLE#3": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Zyada English mat bolo"
         ]
     },
     "OMKAR": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Raat ko aake hum Minal ko ghar le"
         ]
     },
     "RECEPTIONIST": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Sir conference le chuki hain"
         ]
     },
     "LAWYER#3": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "rahin hain Bhai yeh ladkiyan? Yeh"
         ]
     },
     "LAWYER#4": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "JUDGE": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "How Is this relevant Deepak Ji?",
             "Minal Arora says, 'Rajvir Singh",
@@ -512,7 +512,7 @@
         ]
     },
     "PRASHANT MEHTA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Officer Sarla Premchand ko bulana",
             "Phir aapne immediately Minal Arora",
@@ -615,7 +615,7 @@
         ]
     },
     "SARLA PREMCHAND": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "pehle mil gayi thi lekin ek mahila",
             "Complaint ke baad investigation",
@@ -627,7 +627,7 @@
         ]
     },
     "MUKESH": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Nahi jis tarah ke kapde pehne",
             "thhey, mujhe turant Manager sahab",
@@ -636,15 +636,15 @@
         ]
     },
     "MUKESH WAITER": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "LADY OFFICER": {
-        "gender": "X",
+        "gender": "F",
         "utterances": []
     },
     "PRASHANT ADVANI": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Seedhey type ke decent ladke?",
             "Late bhi aatin hain regularly?",
@@ -656,13 +656,13 @@
         ]
     },
     "DUMPY": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Minal kar legi Rajvir se toh"
         ]
     },
     "GUPTA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "kabhie kabhie?",
             "Ho saktey hain lekin nahi bhi to ho",
@@ -670,7 +670,7 @@
         ]
     },
     "GUPTA JI": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     }
 }
