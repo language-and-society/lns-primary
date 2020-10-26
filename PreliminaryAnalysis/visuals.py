@@ -99,7 +99,7 @@ def get_sentences(character_data=None, gender='all', character='all', language='
                             break
                     
                     if flag:
-                        sentences.append(sentence)
+                        sentences.append(sentence.lower())
     if gender == 'M':
         gender = "male"
     if gender == 'F':
@@ -251,45 +251,95 @@ def compare_hedges(character_data=None, gender='all', movie_name=''):
 
     # USING SENTENCES
     # NOTE: these are list, str, char resp
-    en_sentences, gender, s = get_sentences(character_data, gender, character, language='en')
-    else_sentences, gender, s = get_sentences(character_data, gender, character, language='else')
+    all_sentences, gender, s = get_sentences(character_data, gender, character, language='all')
 
     # USING WORDS
     # NOTE: these are dict, str, char resp
-    words, gender, s = get_words(character_data, character=character, gender=gender)
+    # words, gender, s = get_words(character_data, character=character, gender=gender)
 
     #######################################################################
     ############################# INSRERT LOGIC ###########################
     #######################################################################
+
+    check_words = [
+        "?",
+    ]
+
+    for sentence in all_sentences:
+        flag = False
+        for word in check_words:
+            if word in sentence:
+                flag = True
+                break
+        
+        if flag:
+            print(sentence)
+
     return
 
 def compare_apology(character_data=None, gender='all', movie_name=''):
     character = input("Character name (all/etc): ").strip()
     if character == 'all':
         gender = get_gender()
-    en_sentences, gender, s = get_sentences(character_data, gender, character, language='en')
-    else_sentences, gender, s = get_sentences(character_data, gender, character, language='else')
 
+    all_sentences, gender, s = get_sentences(character_data, gender, character, language='all')
 
-    words, gender, s = get_words(character_data, character=character, gender=gender)
+    check_words = [
+        "maaf",
+        "maf",
+        "mafi",
+        "sorry"
+    ]
 
-    #######################################################################
-    ############################# INSRERT LOGIC ###########################
-    #######################################################################
+    for sentence in all_sentences:
+        flag = False
+        for word in check_words:
+            if word in sentence:
+                flag = True
+                break
+        
+        if flag:
+            print(sentence)
+
     return
 
 def compare_slang(character_data=None, gender='all', movie_name=''):
     character = input("Character name (all/etc): ").strip()
     if character == 'all':
         gender = get_gender()
-    en_sentences, gender, s = get_sentences(character_data, gender, character, language='en')
-    else_sentences, gender, s = get_sentences(character_data, gender, character, language='else')
 
-    words, gender, s = get_words(character_data, character=character, gender=gender)
+    all_sentences, gender, s = get_sentences(character_data, gender, character, language='all')
 
-    #######################################################################
-    ############################# INSRERT LOGIC ###########################
-    #######################################################################
+    check_words = [
+        "saale",
+        "bavdi",
+        "bavri",
+        "baavdi",
+        "sala",
+        "sale",
+        "kutte",
+        "kutti",
+        "kutton",
+        "kutiya",
+        "kamine",
+        "kamini",
+        "chutiye",
+        "harami",
+        "fuck",
+        "fukra",
+        "sex",
+    ]
+
+    for sentence in all_sentences:
+        flag = False
+        for word in check_words:
+            if word in sentence:
+                flag = True
+                break
+        
+        if flag:
+            print(sentence)
+
     return
 
 if __name__ == "__main__":
@@ -307,6 +357,9 @@ if __name__ == "__main__":
         print("3. Pronoun Split")
         print("4. Language Split")
         print("5. Sentence Language Split")
+        print("6. Lakoff: hedges")
+        print("7. Lakoff: apologies")
+        print("8. Lakoff: slangs")
         print("\n")
         try:
             choice = int(input("Enter choice: ").strip())
@@ -328,3 +381,9 @@ if __name__ == "__main__":
             language_split(character_data, gender, movie_name)
         elif choice == 5:
             sentence_language_split(character_data, gender, movie_name)
+        elif choice == 6:
+            compare_hedges(character_data, gender, movie_name)
+        elif choice == 7:
+            compare_apology(character_data, gender, movie_name)
+        elif choice == 8:
+            compare_slang(character_data, gender, movie_name)
