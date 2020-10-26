@@ -238,20 +238,21 @@ def sentence_language_split(character_data=None, gender='all', movie_name=''):
     plt.bar(np.arange(2), [len(en_sentences), len(else_sentences)])
 
     if character == 'all':
-        plt.title(f"Showing all English vs Hindi sentence split for all charaters and gender{s}: {gender}")
+        plt.title(f"Showing pure English vs Hindi sentence split for all charaters and gender{s}: {gender}")
     else:
-        plt.title(f"Showing all English vs Hindi sentence split for charater: {character}")
+        plt.title(f"Showing pure English vs Hindi sentence split for charater: {character}")
     plt.show()
     return
 
-def compare_hedges(character_data=None, gender='all', movie_name=''):
-    character = input("Character name (all/etc): ").strip()
-    if character == 'all':
-        gender = get_gender()
+def compare_questions(character_data=None, gender='all', movie_name=''):
+    # character = input("Character name (all/etc): ").strip()
+    # if character == 'all':
+    #     gender = get_gender()
 
     # USING SENTENCES
     # NOTE: these are list, str, char resp
-    all_sentences, gender, s = get_sentences(character_data, gender, character, language='all')
+    male_sentences, gender, s = get_sentences(character_data, gender='M', language='all')
+    female_sentences, gender, s = get_sentences(character_data, gender='F', language='all')
 
     # USING WORDS
     # NOTE: these are dict, str, char resp
@@ -268,24 +269,40 @@ def compare_hedges(character_data=None, gender='all', movie_name=''):
         "mein soch",
     ]
 
-    for sentence in all_sentences:
+    male_count = 0
+    female_count = 0
+
+    for sentence in male_sentences:
         flag = False
         for word in check_words:
             if word in sentence:
                 flag = True
                 break
-        
         if flag:
-            print(sentence)
+            male_count += 1
 
+    for sentence in female_sentences:
+        flag = False
+        for word in check_words:
+            if word in sentence:
+                flag = True
+                break
+        if flag:
+            female_count += 1
+
+        plt.bar(np.arange(2), [male_count, female_count])
+
+    plt.title(f"Male VS female occurances of questions for {movie_name}")
+    plt.show()
     return
 
 def compare_apology(character_data=None, gender='all', movie_name=''):
-    character = input("Character name (all/etc): ").strip()
-    if character == 'all':
-        gender = get_gender()
+    # character = input("Character name (all/etc): ").strip()
+    # if character == 'all':
+    #     gender = get_gender()
 
-    all_sentences, gender, s = get_sentences(character_data, gender, character, language='all')
+    male_sentences, gender, s = get_sentences(character_data, gender='M', language='all')
+    female_sentences, gender, s = get_sentences(character_data, gender='F', language='all')
 
     check_words = [
         "maaf",
@@ -294,24 +311,40 @@ def compare_apology(character_data=None, gender='all', movie_name=''):
         "sorry"
     ]
 
-    for sentence in all_sentences:
+    male_count = 0
+    female_count = 0
+
+    for sentence in male_sentences:
         flag = False
         for word in check_words:
             if word in sentence:
                 flag = True
                 break
-        
         if flag:
-            print(sentence)
+            male_count += 1
 
+    for sentence in female_sentences:
+        flag = False
+        for word in check_words:
+            if word in sentence:
+                flag = True
+                break
+        if flag:
+            female_count += 1
+
+        plt.bar(np.arange(2), [male_count, female_count])
+
+    plt.title(f"Male VS female occurances of apology for {movie_name}")
+    plt.show()
     return
 
 def compare_slang(character_data=None, gender='all', movie_name=''):
-    character = input("Character name (all/etc): ").strip()
-    if character == 'all':
-        gender = get_gender()
+    # character = input("Character name (all/etc): ").strip()
+    # if character == 'all':
+    #     gender = get_gender()
 
-    all_sentences, gender, s = get_sentences(character_data, gender, character, language='all')
+    male_sentences, gender, s = get_sentences(character_data, gender='M', language='all')
+    female_sentences, gender, s = get_sentences(character_data, gender='F', language='all')
 
     check_words = [
         "saale",
@@ -333,16 +366,31 @@ def compare_slang(character_data=None, gender='all', movie_name=''):
         "sex",
     ]
 
-    for sentence in all_sentences:
+    male_count = 0
+    female_count = 0
+
+    for sentence in male_sentences:
         flag = False
         for word in check_words:
             if word in sentence:
                 flag = True
                 break
-        
         if flag:
-            print(sentence)
+            male_count += 1
 
+    for sentence in female_sentences:
+        flag = False
+        for word in check_words:
+            if word in sentence:
+                flag = True
+                break
+        if flag:
+            female_count += 1
+
+        plt.bar(np.arange(2), [male_count, female_count])
+
+    plt.title(f"Male VS female occurances of slangs for {movie_name}")
+    plt.show()
     return
 
 if __name__ == "__main__":
@@ -360,7 +408,7 @@ if __name__ == "__main__":
         print("3. Pronoun Split")
         print("4. Language Split")
         print("5. Sentence Language Split")
-        print("6. Lakoff: hedges")
+        print("6. Lakoff: questions")
         print("7. Lakoff: apologies")
         print("8. Lakoff: slangs")
         print("\n")
@@ -385,7 +433,7 @@ if __name__ == "__main__":
         elif choice == 5:
             sentence_language_split(character_data, gender, movie_name)
         elif choice == 6:
-            compare_hedges(character_data, gender, movie_name)
+            compare_questions(character_data, gender, movie_name)
         elif choice == 7:
             compare_apology(character_data, gender, movie_name)
         elif choice == 8:
