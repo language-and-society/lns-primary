@@ -263,6 +263,9 @@ def compare_hedges(character_data=None, gender='all', movie_name=''):
 
     check_words = [
         "?",
+        "mujhey lagta",
+        "mujhe lagta",
+        "mein soch",
     ]
 
     for sentence in all_sentences:
