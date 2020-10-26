@@ -1,6 +1,6 @@
 {
     "MEERA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Main na tum goron ki tarah chhote",
             "apne bache ko kamre mein akele n",
@@ -29,7 +29,7 @@
         ]
     },
     "AVNI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Maine khan na office renovation",
             "Haan Maa yeh hum lesbians ka dress",
@@ -74,7 +74,7 @@
         ]
     },
     "SAKSHI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Main na apne bbap se nahi derti",
             "Seriously yaar iss janam mein toh",
@@ -97,21 +97,21 @@
         ]
     },
     "GIRLS": {
-        "gender": "X",
+        "gender": "F",
         "utterances": []
     },
     "KALINDI MOM": {
-        "gender": "X",
+        "gender": "F",
         "utterances": []
     },
     "CHACHA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Shaadi karke zindagi ki sabse badi"
         ]
     },
     "DAD": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Aur Waise gher tere baap ka nahi",
             "hai",
@@ -119,7 +119,7 @@
         ]
     },
     "MOM": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Just look at him Cookie, ye vahi",
             "aadmi hain jo raat ke 12 baaje",
@@ -128,7 +128,7 @@
         ]
     },
     "MOM VOICE OVER": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "galatiyan chupate hain, well at",
             "Jab tak galatiyan nhai karoge, toh",
@@ -137,7 +137,7 @@
         ]
     },
     "RISHAB": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Kaloo hamare wali ring le ayenge na",
             "I don\u2019t know what\u2019s wrong with you",
@@ -152,13 +152,13 @@
         "utterances": []
     },
     "AUNTY NO 1": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Beti ko dekho night club se baher"
         ]
     },
     "AUNTY NO 3": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Arey Divorce ho raha hai ladki ka",
             "Baap Kaisa sher ban phirta tha  aur",
@@ -166,7 +166,7 @@
         ]
     },
     "VINEET": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "hoon",
             "Isse pehle main sabko bataa doon ki",
@@ -179,7 +179,7 @@
         "utterances": []
     },
     "SANTOSH AUNTY": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Yeh teri saas ki nanad ke dewar ki",
             "Aur bhenji humaari toh braat hi",
@@ -189,7 +189,7 @@
         ]
     },
     "KALINDI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Toh Rishab keh raha tha ki unn",
             "Toh after this epic barbaadi of",
@@ -211,14 +211,14 @@
         ]
     },
     "RISHAB\u2019S DAD": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Ooye itne logon ki sharaabein pee",
             "Ooye Goyal maine na teri le"
         ]
     },
     "COOKIE CHACHA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Malhotras ko humaari family one",
             "fruit basket at a time hi milani",
@@ -236,7 +236,7 @@
         ]
     },
     "PAROMITA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "hai ki tum humare saath nahi reh",
             "Acha let me know , if there is any",
@@ -259,7 +259,7 @@
         "utterances": []
     },
     "RISHAB\u2019S MOM": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Behenji formhouse ka charm hi hor",
             "Kalindi beta main toh iss ke",
@@ -319,7 +319,7 @@
         "utterances": []
     },
     "KALINDI\u2019S DAD": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Hoon mein par kum se kum Apni",
             "relationship chhupaate nahi",
