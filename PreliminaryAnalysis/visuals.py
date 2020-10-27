@@ -1,4 +1,3 @@
-#%%
 import sys
 import json
 import math
@@ -138,14 +137,20 @@ def frequency_split(character_data=None, gender='all', movie_name=''):
     fig, ax = plt.subplots(figsize=(20, 10))
     ax.bar(labels[:50], values[:50])
     fig.autofmt_xdate()
-    plt.title(f"Frequency Distribution of Words by {gender} gender{s} in movie {movie_name}")
+    if character == 'all':
+        plt.title(f"Frequency Distribution of Words by {gender} gender{s} in movie {movie_name}")
+    else:
+        plt.title(f"Frequency Distribution of Words for {character} in movie {movie_name}")
     plt.show()
 
     # log(WORD) COUNT GRAPH
     fig, ax = plt.subplots(figsize=(20, 10))
     ax.bar(labels[:50], log_values[:50])
     fig.autofmt_xdate()
-    plt.title(f"Log of frequency Distribution of Words by {gender} gender{s} in movie {movie_name}")
+    if character == 'all':
+        plt.title(f"Log(Frequency Distribution) of Words by {gender} gender{s} in movie {movie_name}")
+    else:
+        plt.title(f"Log(Frequency Distribution) of Words for {character} in movie {movie_name}")    
     plt.show()
 
 def pronoun_split(
@@ -439,5 +444,3 @@ if __name__ == "__main__":
             compare_apology(character_data, gender, movie_name)
         elif choice == 8:
             compare_slang(character_data, gender, movie_name)
-
-# %%
