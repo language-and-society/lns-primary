@@ -1,6 +1,6 @@
 {
     "RANI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Toh aap karvaao",
             "Dholak sound kicks in, cut back to the mehandi.",
@@ -658,7 +658,7 @@
         ]
     },
     "VIJAY": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Saif ne bhi toh karvaya tha kareena",
             "ke liye",
@@ -872,7 +872,7 @@
         ]
     },
     "DAD": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "bhi rakhna",
             "Dhingra kya baat kar raha hai tu",
@@ -926,11 +926,11 @@
         ]
     },
     "MITHAI SHOP GUY 1": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "MITHAI SHOP GUY 2": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "machayega",
             "As she smiles at them. The camera leaves her and follows",
@@ -940,11 +940,11 @@
         ]
     },
     "GIRL": {
-        "gender": "X",
+        "gender": "F",
         "utterances": []
     },
     "DADI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "shaadi hai, tu bata step",
             "From the terrace we hear a voice, camera pans up",
@@ -979,7 +979,7 @@
         ]
     },
     "FUFA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Bhai beer sheer kholo aanth saal ke",
             "baad gahr mein shaadi hai ji...",
@@ -989,13 +989,13 @@
         ]
     },
     "CHACHI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "sangeet pe bhi pehni thi"
         ]
     },
     "TRIPTA BUA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "wali",
             "Her husband enters frame wearing a suit and carrying one in",
@@ -1007,11 +1007,11 @@
         ]
     },
     "GIRLS": {
-        "gender": "X",
+        "gender": "F",
         "utterances": []
     },
     "DHINGRA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Itni badi ho gayee.. main kya",
             "mehra... lagta hai parjayi pe gayi",
@@ -1035,7 +1035,7 @@
         ]
     },
     "MRS DHINGRA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Introduces Rani",
             "namastey beta",
@@ -1048,13 +1048,13 @@
         ]
     },
     "SHOP BHAIYYA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "dikhaun?"
         ]
     },
     "SONAL": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "to aur bahut kuch chakh aayi",
             "And sonal starts laughing.",
@@ -1129,7 +1129,7 @@
         ]
     },
     "TENT WALA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "ki nikal doon?",
             "Sir last minute cancellation ka",
@@ -1139,7 +1139,7 @@
         ]
     },
     "MOM": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "ho jaayega",
             "Dekho ji aap bolo na issey",
@@ -1203,7 +1203,7 @@
         ]
     },
     "CHACHA": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "do chaped lagaaunga, sab theek ho",
             "jaayega",
@@ -1243,7 +1243,7 @@
         ]
     },
     "BUA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Mithayiyon ka kya karein? itney",
             "dabbey... kharaab hi ho jaani",
@@ -1254,7 +1254,7 @@
         ]
     },
     "AUNT 2": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "toh kar",
             "Mujhey lily bata rahi thi... apni",
@@ -1264,7 +1264,7 @@
         ]
     },
     "BUA 2": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "kuch hum log baant letey hain",
             "Daal chini..uhhh",
@@ -1272,11 +1272,11 @@
         ]
     },
     "MAASI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": []
     },
     "TAAYA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "hai... memaan hi memaan phirdiyaan",
             "sajjey khabbey...",
@@ -1288,7 +1288,7 @@
         ]
     },
     "AUNT": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "kar sakta na",
             "Samajhney ki baat hai... yeh sab",
@@ -1301,20 +1301,20 @@
         ]
     },
     "FEMALE CASHIER": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "To phir kab?"
         ]
     },
     "BADI BUA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "hai theek se, (to rani) koyi nahin",
             "kudiye baad mein baat karenge"
         ]
     },
     "CHAACHI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "papa ne tujhey saat bajey ke baad",
             "to ghar se nikalney nahin diya...",
@@ -1325,7 +1325,7 @@
         ]
     },
     "BUA2": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "bewakoofon wali baat kar rahi",
             "hai...",
@@ -1339,20 +1339,20 @@
         ]
     },
     "DRIVER": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Champs-elysees! (with the correct"
         ]
     },
     "MAN BEHIND THE DESK": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "reservation",
             "Rani realises. heartbreak in eyes, she drags the words out"
         ]
     },
     "GRANDMOTHER": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Puttar mera sher... tu angrezon se",
             "darna mat. Tu koyi queen victoria",
@@ -1364,7 +1364,7 @@
         ]
     },
     "FRENCH GIRL": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "I got 5 mins to fuck, only five",
             "minutes, i tell him he got a small",
@@ -1387,7 +1387,7 @@
         ]
     },
     "THE GUY FROM UNDER THE BALCONY": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Rani quietly standing in her balcony looking at her but",
             "pretending not to be looking at her. The girl takes out a",
@@ -1396,7 +1396,7 @@
         ]
     },
     "VIJAYLAXMI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "She exits.",
             "Just for that i give you free wine",
@@ -1531,7 +1531,7 @@
         ]
     },
     "RECEPTIONIST": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "hotel",
             "No... no restaurant... in hotel",
@@ -1555,7 +1555,7 @@
         ]
     },
     "WAITER": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "The waiter takes the menu and leaves. She sits there looking",
             "at the empty road.",
@@ -1571,11 +1571,11 @@
         ]
     },
     "COP 1": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "COP": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "demeures-tu?",
             "montrer une pi\u00e8ce d'identit\u00e9",
@@ -1589,11 +1589,11 @@
         ]
     },
     "KID": {
-        "gender": "X",
+        "gender": "M",
         "utterances": []
     },
     "RICKY": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Ricky runs away embarrassed.",
             "As Vijaylaxmi scribbles a number on a paper and gives it to",
@@ -1601,7 +1601,7 @@
         ]
     },
     "MAN": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Rani looks at him confused",
             "That one across the street, the",
@@ -1613,20 +1613,20 @@
         ]
     },
     "1ST GUY": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Rani doesn't say anything, she just looks scared."
         ]
     },
     "2ND GUY": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "And the 1st guy grabs her bag. Rani is taken aback but she",
             "doesn't let go."
         ]
     },
     "VIJAY!!!!! POLICE": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "guys hear voices of a few people far away approaching them.",
             "The guys panic and let go off the bag and since rani is",
@@ -1639,13 +1639,13 @@
         ]
     },
     "RANI AND VIJAYLAXMI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "vijaylaxmi"
         ]
     },
     "RANI\u2019S DAD": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "His phone beeps, he looks shocked",
             "Music kicks in.",
@@ -1667,7 +1667,7 @@
         "utterances": []
     },
     "MR. VERMA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "His wife calls out",
             "Tch",
@@ -1689,7 +1689,7 @@
         ]
     },
     "MRS. VERMA": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Thodi chai, roohafza? Thodi thandak",
             "padegi kaleje nu",
@@ -1712,7 +1712,7 @@
         ]
     },
     "GRANDMUM": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "saade bachche de naal, bhagwaan ne",
             "aise kyun kitta",
@@ -1737,7 +1737,7 @@
         ]
     },
     "NANI": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "83Aa"
         ]
@@ -1760,7 +1760,7 @@
         "utterances": []
     },
     "LEE COOPER": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "You shut it, do some work",
             "Mikhaelo runs after him and the Lee quickly gets away.",
@@ -1817,7 +1817,7 @@
         ]
     },
     "MIKHAELO": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "you in jail",
             "Lee cooper makes a face and mikhaelo goes back to painting",
@@ -1937,7 +1937,7 @@
         ]
     },
     "BLACK GUY": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "s\u2019il vous plait",
             "Rani is not listening",
@@ -1950,7 +1950,7 @@
         ]
     },
     "TIM": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "What is this?",
             "French toast? I m from france and",
@@ -1983,13 +1983,13 @@
         ]
     },
     "MIKHEALO": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Rani screams again then smiles at realizing he was joking"
         ]
     },
     "MARCELLO": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "I forget to tell you its my",
             "restaurant?",
@@ -2035,7 +2035,7 @@
         ]
     },
     "WOMAN": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "The woman looks at rani",
             "Marcello! Leave the poor girl alone",
@@ -2048,14 +2048,14 @@
         ]
     },
     "WIFE": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "Achcha phir aye le lo, monkey wala",
             "Achcha phir aye le lo, check wala"
         ]
     },
     "HUSBAND": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "Monkey wala? Main tenu monkey",
             "dikhda?",
@@ -2066,7 +2066,7 @@
         ]
     },
     "SIKANDAR": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "for a day, today",
             "Yes rani, thats amsterdam",
@@ -2075,19 +2075,19 @@
         ]
     },
     "MIKHAELO AND LEE COOPER": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "will come with you"
         ]
     },
     "LEE COOPER AND MIKHAELO": {
-        "gender": "X",
+        "gender": "M",
         "utterances": [
             "tonight we go with rani"
         ]
     },
     "RUKHSAAR": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "vijaylakshmi ka address hai unki",
             "paas...   yahan ka nahin de saktey...",
@@ -2127,7 +2127,7 @@
         ]
     },
     "MUM": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "chini ko english mein kya bolte hai",
             "Phone rings, Rani\u2019s bua answers",
@@ -2137,7 +2137,7 @@
         ]
     },
     "RANI'S MOM": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "angrez bann jaatey hain",
             "Rani is standing right in front of them now",
@@ -2150,14 +2150,14 @@
         "utterances": []
     },
     "RANI\u2019S MOM": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "kaisey aayegi akeley... Chintu ko",
             "saath rakh le"
         ]
     },
     "VIJAY'S MOM": {
-        "gender": "X",
+        "gender": "F",
         "utterances": [
             "baal katva liye... chal koyi baat",
             "nahin... shaadi ke liye meri",

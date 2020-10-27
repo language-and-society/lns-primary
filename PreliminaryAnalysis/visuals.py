@@ -137,14 +137,20 @@ def frequency_split(character_data=None, gender='all', movie_name=''):
     fig, ax = plt.subplots(figsize=(20, 10))
     ax.bar(labels[:50], values[:50])
     fig.autofmt_xdate()
-    plt.title(f"Frequency Distribution of Words by {gender} gender{s} in movie {movie_name}")
+    if character == 'all':
+        plt.title(f"Frequency Distribution of Words by {gender} gender{s} in movie {movie_name}")
+    else:
+        plt.title(f"Frequency Distribution of Words for {character} in movie {movie_name}")
     plt.show()
 
     # log(WORD) COUNT GRAPH
     fig, ax = plt.subplots(figsize=(20, 10))
     ax.bar(labels[:50], log_values[:50])
     fig.autofmt_xdate()
-    plt.title(f"Log of frequency Distribution of Words by {gender} gender{s} in movie {movie_name}")
+    if character == 'all':
+        plt.title(f"Log(Frequency Distribution) of Words by {gender} gender{s} in movie {movie_name}")
+    else:
+        plt.title(f"Log(Frequency Distribution) of Words for {character} in movie {movie_name}")    
     plt.show()
 
 def pronoun_split(
@@ -170,7 +176,10 @@ def pronoun_split(
     
     _, ax = plt.subplots(figsize=(10, 10))
     ax.pie(pronoun_counts, labels=pronouns, autopct='%1.2f%%')
-    plt.title(f"Distribution of pronouns used by {gender} gender{s} in movie {movie_name}")
+    if character == 'all':
+        plt.title(f"Pronoun Split by {gender} gender{s} in movie {movie_name}")
+    else:
+        plt.title(f"Pronoun Split for {character} in movie {movie_name}")     
     plt.show()
 
 def language_split(
