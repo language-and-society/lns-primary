@@ -1,3 +1,4 @@
+#%%
 import sys
 import json
 import math
@@ -387,3 +388,5 @@ if __name__ == "__main__":
             compare_apology(character_data, gender, movie_name)
         elif choice == 8:
             compare_slang(character_data, gender, movie_name)
+
+# %%
