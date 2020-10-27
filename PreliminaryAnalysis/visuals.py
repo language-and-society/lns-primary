@@ -176,8 +176,10 @@ def pronoun_split(
     
     _, ax = plt.subplots(figsize=(10, 10))
     ax.pie(pronoun_counts, labels=pronouns, autopct='%1.2f%%')
-    plt.title(f"Distribution of pronouns used by {gender} gender{s} in movie {movie_name}")
-    plt.show()
+    if character == 'all':
+        plt.title(f"Log(Frequency Distribution) of Words by {gender} gender{s} in movie {movie_name}")
+    else:
+        plt.title(f"Log(Frequency Distribution) of Words for {character} in movie {movie_name}")     plt.show()
 
 def language_split(
         character_data=None,
