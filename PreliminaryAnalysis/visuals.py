@@ -179,7 +179,8 @@ def pronoun_split(
     if character == 'all':
         plt.title(f"Log(Frequency Distribution) of Words by {gender} gender{s} in movie {movie_name}")
     else:
-        plt.title(f"Log(Frequency Distribution) of Words for {character} in movie {movie_name}")     plt.show()
+        plt.title(f"Log(Frequency Distribution) of Words for {character} in movie {movie_name}")     
+    plt.show()
 
 def language_split(
         character_data=None,
