@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 plt.style.use('seaborn')
 
 
-df = pd.read_csv('clean_survey_data.csv')
+df = pd.read_csv('new_clean_survey_data.csv')
 
 # print(df[:10])
 # print(df.groupby(by="gender").sum())

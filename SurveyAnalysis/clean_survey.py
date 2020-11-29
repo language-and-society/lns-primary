@@ -100,4 +100,4 @@ for i in range(len(df)):
 # print(new_df.head(5))
 # print(len(new_df))
 
-new_df.to_csv('clean_survey_data.csv', index=False)
+new_df.to_csv('new_clean_survey_data.csv', index=False)
